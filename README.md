@@ -1,4 +1,3 @@
 scala-mail
 ==========
-
-Scala Application for sending mail
+http://www.tutorialspoint.com/scala/scala_basic_syntax.htm
