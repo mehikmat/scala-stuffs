@@ -1,4 +1,4 @@
-name := "scala-demo"
+name := "scala-basics"
 
 version := "1.0"
 
