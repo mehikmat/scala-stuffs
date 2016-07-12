@@ -3,7 +3,7 @@ package demo
 /**
  * Created by hdhamee on 7/12/16.
  */
-class Point(xc: Int, yc: Int) {
+class Point(xc: Int, yc: Int) extends Equal{
   var x: Int = xc
   var y: Int = yc
 
@@ -12,6 +12,10 @@ class Point(xc: Int, yc: Int) {
     y = y + dy
     println ("Point x location : " + x);
     println ("Point y location : " + y);
+  }
+
+  def isEqual(obj: Any) = {
+    obj.isInstanceOf[Point] && obj.asInstanceOf[Point].x == x && obj.asInstanceOf[Point].y == y
   }
 }
 

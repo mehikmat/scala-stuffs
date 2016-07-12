@@ -35,7 +35,7 @@ object HelloWorld {
       "%f, while the value of the integer " +
       "variable is %d, and the string " +
       "is %s",0.5, 10, "SECOND")
-      println(fs)
+    println(fs)
     println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 
     // array test
@@ -43,10 +43,36 @@ object HelloWorld {
     for(x <- myList){
       print(x)
     }
+    println()
     println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 
+    // trait test
+    val p1 = new Point(2, 3)
+    val p2 = new Point(2, 3)
+    println(p1.isEqual(p2))
+    println(p1.isNotEqual(p2))
+    println(p1.isNotEqual(2))
+    println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 
-
+    // pattern matching
+    println(matchTest("d"))
 
   }
+
+  def matchTest(x: Any): Any = x match {
+    case 1 => "one"
+    case "two" => 2
+    case y: Int => "scala.Int"
+    case _ => "many"
+  }
+  println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+
+  //Exception test
+
+
+  // Extractor test
+
+
+  // File I/O test
+
 }
