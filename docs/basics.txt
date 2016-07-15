@@ -1,0 +1,3 @@
+http://www.scala-lang.org/old/node/1305.html
+http://docs.scala-lang.org/tutorials/scala-for-java-programmers.html
+http://www.scala-lang.org/what-is-scala.html
