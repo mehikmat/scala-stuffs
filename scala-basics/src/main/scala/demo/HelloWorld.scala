@@ -9,7 +9,7 @@ import scala.io.Source
 object HelloWorld {
 
   def main(args: Array[String]) = {
-    var myVar :Int = 10 // variable/mutable declaration
+    val myVar :Int = 10 // variable/mutable declaration
     val myVal :String = "Hello Scala with datatype declaration." // constant/immutable declaration
     println(myVar); println(myVal)
     println(">>>>>>>>>>>>>>>>>>>>>>>>>")
