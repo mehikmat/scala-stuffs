@@ -3,3 +3,8 @@ target
 build
 *.iml*
 *.~
+.cache-main
+.classpath
+.project
+.settings
+bin

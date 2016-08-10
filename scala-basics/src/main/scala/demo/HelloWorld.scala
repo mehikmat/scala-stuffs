@@ -6,6 +6,12 @@ import demo.Run._
 
 import scala.io.Source
 
+/**
+ *  Scala is more object-oriented than Java because in Scala, we cannot have static members.
+ *  Instead, Scala has singleton objects. A singleton is a class that can have only one instance,
+ *  i.e., Object. You create singleton using the keyword object instead of class keyword.
+ *  Since we can't instantiate a singleton object, we can't pass parameters to the primary constructor. 
+ */
 object HelloWorld {
 
   def main(args: Array[String]) = {
@@ -96,7 +102,7 @@ object HelloWorld {
 
   // File I/O test
   // using java classes
-  val writer = new PrintWriter(new File("Test.iml" ))
+  val writer = new PrintWriter(new File("Test.txt" ))
   writer.write("Hello Scala")
   writer.close()
   println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
@@ -109,8 +115,9 @@ object HelloWorld {
 
 
   println("Following is the content read:" )
-  Source.fromFile("Test.iml" ).foreach {print};println
+  Source.fromFile("Test.text" ).foreach {print};println
   println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
-
+  
+  
 
 }
