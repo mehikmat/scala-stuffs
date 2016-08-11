@@ -6,6 +6,13 @@ package demo
  * i.e. it is possible to define default implementations for some methods.
  * In contrast to classes, traits may not have constructor parameters.
  * 
+ * Once a trait is defined, it can be mixed in to a class using either the
+ * extends or with keywords. Scala programmers “mix in” traits rather than
+ * inherit from them, because mixing in a trait has important differences from
+ * the multiple inheritance found in many other language.
+ * 
+ * More----
+ * 
  * Created by hdhamee on 7/12/16.
  */
 trait Equal {

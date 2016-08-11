@@ -195,12 +195,29 @@ literal is called a closure. The name arises from the act of “closing” the f
 tion literal by “capturing” the bindings of its free variables.*/
 	var inr = (x: Int) => x + ab
 	println(inr(10))
-	
+
 	// Function can be called with named parameter and also can be defined default values, multiple args
-	
+
 
 	/**
 	 * Control Abstraction
 	 */
-	
+
+	/**
+	 * Scala Composition === see in Composition class
+	 */
+
+	/**
+	 * Scala Hierarchy
+	 * - In Scala, every class inherits from a common superclass named Any.
+	 * - just as Any is a superclass of every other class, Nothing/Null is a subclass of every other class.
+	 *
+	 *
+	 *                       scala.Any
+	 *                          |
+	 *    -----------------------------------------
+	 *    |                     |                  |
+	 *    scala.AnyVal      scala.AnyRef     scala.ScalaObject
+	 *    (Int,Double etc)    (String,etc)     (Iterator,Seq,etc)
+	 */       
 }
