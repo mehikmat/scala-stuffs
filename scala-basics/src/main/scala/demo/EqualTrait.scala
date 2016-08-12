@@ -13,9 +13,13 @@ package demo
  * 
  * More----
  * 
+ * [1] if the behavior will not be reused, then make it a concrete class. It is not reusable behavior after all.
+ * [2] If it might be reused in multiple, unrelated classes, make it a trait. Only traits can be mixed into different parts of the class hierarchy.
+ * [3] If you want to inherit from it in Java code, use an abstract class.
+ * 
  * Created by hdhamee on 7/12/16.
  */
-trait Equal {
+trait EqualTrait {
   def isEqual(x: Any): Boolean // need to be implemented by extending class
   def isNotEqual(x: Any): Boolean = !isEqual(x) // no need to implement
 }

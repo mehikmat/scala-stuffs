@@ -3,7 +3,7 @@ package demo
 /**
  * Created by hdhamee on 7/12/16.
  */
-class Point(xc: Int, yc: Int) extends Equal{
+class Point(xc: Int, yc: Int) extends EqualTrait{
   var x: Int = xc
   var y: Int = yc
 

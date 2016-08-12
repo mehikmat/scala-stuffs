@@ -219,5 +219,20 @@ tion literal by “capturing” the bindings of its free variables.*/
 	 *    |                     |                  |
 	 *    scala.AnyVal      scala.AnyRef     scala.ScalaObject
 	 *    (Int,Double etc)    (String,etc)     (Iterator,Seq,etc)
-	 */       
+	 */  
+	
+	/**
+	 *  Package and Import
+	 *  
+	 *  • may appear anywhere
+   *  • may refer to objects (singleton or regular) in addition to packages
+   *  • let you rename and hide some of the imported members
+   *  
+   *  You can define package object inside package(eg. to have helper methods) which is available to all the classes
+	 */
+	
+	/**
+	 * Assertions and Unit Testing
+	 * 
+	 */
 }
