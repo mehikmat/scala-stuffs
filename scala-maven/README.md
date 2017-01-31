@@ -20,9 +20,13 @@ Add the following test dependency in pom.xml file
 </dependency>
 ```
 
+Add the maven shade plugin to make an uber jar with dependencies
+----------------------------------------------------------------
+
+
 Comment the following line in scala maven plugin section
 --------------------------------------------------------
-<!-- <arg>-make:transitive</arg> -->
+ ```<arg>-make:transitive</arg>```
 
 
 Import project in IntelliJ
