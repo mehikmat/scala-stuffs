@@ -4,7 +4,6 @@ package demo
  * Created by hdhamee on 7/12/16.
  */
 object Run {
-
   implicit class IntTimes(x: Int) {
 
     def times [A](f: =>A): Unit = {
