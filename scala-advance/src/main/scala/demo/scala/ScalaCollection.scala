@@ -43,11 +43,6 @@ object ScalaCollection {
     val shuffledList = scala.util.Random.shuffle(List(1,2,3,4))
     println(shuffledList.mkString(",\t"))
 
-
-
-
-
-
   }
 
 }

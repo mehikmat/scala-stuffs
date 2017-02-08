@@ -39,7 +39,6 @@ object ScalaImplicit {
     implicit def stringToPerson(str: String): People = People(str)
   }
 
-
   def main(args: Array[String]) {
 
     val name = sayHello(person)
