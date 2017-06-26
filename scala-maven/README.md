@@ -6,7 +6,14 @@ Tools needed for productive scala devlopment
 To generate maven scala project
 -------------------------------
 ```
-$> mvn org.apache.maven.plugins:maven-archetype-plugin:3.0.1:generate -DarchetypeGroupId=net.alchim31.maven -DarchetypeArtifactId=scala-archetype-simple -DarchetypeVersion=1.6 -DgroupId=demo.scala -DartifactId=scala-maven -Dversion=1.0
+$> mvn org.apache.maven.plugins:maven-archetype-plugin:3.0.1:generate
+             -DarchetypeGroupId=net.alchim31.maven
+	     -DarchetypeArtifactId=scala-archetype-simple
+	     -DarchetypeVersion=1.6
+	     
+	     -DgroupId=demo.scala
+	     -DartifactId=scala-maven
+	     -Dversion=1.0
 ```
 
 Add the following test dependency in pom.xml file
